@@ -1,0 +1,32 @@
+{
+  "name": "@darrenmothersele/builder",
+  "version": "0.1.0",
+  "description": "Build system for my own projects",
+  "main": "index.js",
+  "bin": {
+    "build": "./index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {},
+  "author": "Darren Mothersele <darren@darrenmothersele.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^1.3.0",
+    "autoprefixer": "^9.7.3",
+    "browser-sync": "^2.26.7",
+    "chokidar": "^3.3.0",
+    "cssnano": "^4.1.10",
+    "meow": "^5.0.0",
+    "nodemon": "^2.0.1",
+    "postcss-discard-comments": "^4.0.2",
+    "rollup": "^1.27.8",
+    "rollup-plugin-copy": "^3.1.0",
+    "rollup-plugin-delete": "^1.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-terser": "^5.1.2",
+    "tailwindcss": "^1.1.4"
+  }
+}
