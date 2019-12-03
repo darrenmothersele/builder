@@ -1,6 +1,6 @@
 {
   "name": "@darrenmothersele/builder",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Build system for my own projects",
   "main": "index.js",
   "bin": {
@@ -9,6 +9,9 @@
   "files": [
     "index.js"
   ],
+  "repository": {
+    "url": "https://github.com/darrenmothersele/builder"
+  },
   "scripts": {},
   "author": "Darren Mothersele <darren@darrenmothersele.com>",
   "license": "MIT",
